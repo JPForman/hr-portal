@@ -1,0 +1,40 @@
+@import 'variables';
+
+.loginHeader{
+  color: #262626;
+  padding-bottom: 3%;
+  font-size: 4vh;
+}
+
+.emailField{
+  margin-bottom: 2vh;
+  text-align: center;
+  font-size: 3vh;
+  background-color: $theoremLightGrey;
+}
+
+.passwordField{
+  margin-bottom: 2vh;
+  margin-top: 3vh;
+  text-align: center;
+  font-size: 3vh;
+  background-color: $theoremLightGrey;
+}
+
+.loginButton {
+  font-size: 3vh;
+  margin-top: 1.75vh;
+  padding: 1%;
+  padding-top: .3%;
+  padding-bottom: .3%;
+  background-color: $theoremBlack;
+  color: white;
+  border: 3px solid $theoremBlack;
+  
+  &:hover{
+    color: $theoremBlack;
+    background-color: white;
+  }
+}
+
+
